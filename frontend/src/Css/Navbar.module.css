@@ -1,96 +1,38 @@
 .navbar {
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     flex-grow: 1;
     height: 15vh;
-    /* width: 90vw; */
     margin: auto;
-	background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);}
-
-.navbar__one {
-    /* border: 2px solid green; */
-    display: flex;
+	background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
 }
 
-.navbar__one_one {
-    /* border: 2px solid purple; */
-    display: flex;
-    align-items: center;
+.logo{
+	display: flex;
 	justify-content: center;
-	margin-left: 250px;
+	align-items: center;
+	height: 50%;
+	flex-direction: row;
+	/* color: #b65ad8 */
 }
 
-.navbar__one_one h4 {
-    font-size: 15px;
+.img{
+	height: 100%;
+}
 
+.img img{
+	height: 100%;
 }
 
 .logo_head{
-	/* border: 2px solid red; */
-	/* margin: auto; */
 	display: flex;
-	/* align-items: center; */
-	/* justify-content: space-between; */
-	flex-direction: column;
+	height: 100%;
+	align-items:stretch;
+	flex-direction:column;
 }
-.bank{
-	display: flex;
-	/* border: 2px solid red; */
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 0;
-}
-
-.navbar__one_two {
-    /* border: 2px solid salmon; */
-    flex-grow: 1;
-    margin-left: 30px;
-	/* font-size: medium; */
-}
-
-.navbar__one_two ul {
-    /* border: 2px solid firebrick; */
-    height: 100%;
-    width: 60%;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.navbar__one_two li {
-    font-size: 16px;
-    cursor: pointer;
-
-}
-
-.navbar__one_one img {
-   width: 2rem;
-   margin-right: 15px;
-}
-
-.navbar__two {
-    /* border: 2px solid khaki; */
-    /* flex-grow: 0.4 */
-}
-
-.navbar__two button {
-    /* margin-right: 20px; */
-    background-color: white;
-    border: 0;
-    font-size: 15px;
-}
-
-.get_started {
 	
-    margin-left: 40px;
-    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    color: #fff;
-    padding: 15px 35px;
-    border: 0;
-    border-radius: 5px;
-    /* background-color: #df9ff7; */
-}
+
+
+
