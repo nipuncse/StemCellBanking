@@ -2,101 +2,101 @@ import React from "react";
 
 const FooterComponent = () => {
   return (
-    <div className="bg-[#FEE3EC]">
+    <div className="bg-[#eea3c5] text-neutral-50">
       <>
-        <footer className="text-gray-600 body-font">
+        <footer className=" body-font text-neutral-50">
           <div className="container px-5 py-20 mx-auto">
             <div className="flex flex-wrap md:text-left text-center order-first">
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                <h2 className="title-font font-medium text-neutral-50  tracking-widest text-sm mb-3">
                   CATEGORIES
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       First Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       Second Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       Third Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       Fourth Link
-                    </a>
+                    </p>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                <h2 className="title-font font-medium text-neutral-50  tracking-widest text-sm mb-3">
                   CATEGORIES
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       First Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       Second Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       Third Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-50">
                       Fourth Link
-                    </a>
+                    </p>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                <h2 className="title-font font-medium text-neutral-50  tracking-widest text-sm mb-3">
                   CATEGORIES
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-200">
                       First Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-200">
                       Second Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-200">
                       Third Link
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <p className="text-neutral-50 cursor-pointer hover:text-neutral-200">
                       Fourth Link
-                    </a>
+                    </p>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                <h2 className="title-font font-medium text-neutral-50  tracking-widest text-sm mb-3">
                   SUBSCRIBE
                 </h2>
                 <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
                   <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                     <label
                       for="footer-field"
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-neutral-50"
                     >
                       Placeholder
                     </label>
@@ -111,7 +111,7 @@ const FooterComponent = () => {
                     Button
                   </button>
                 </div>
-                <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
+                <p className="text-neutral-50 text-sm mt-2 md:text-left text-center">
                   Bitters chicharrones fanny pack
                   <br className="lg:block hidden" />
                   waistcoat green juice

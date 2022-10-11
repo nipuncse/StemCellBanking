@@ -3,10 +3,11 @@ import { useForm } from "react-hook-form";
 import "../../../Css/Navbar.module.css";
 import classes from "../../../Css/form.module.css";
 import Navbar from "./Navbar";
-import { doc, setDoc, serverTimestamp } from "firebase/firestore";
+import { doc, setDoc, serverTimestamp, getDoc } from "firebase/firestore";
 import { db } from "../../../firebase";
 import { useContext } from "react";
 import EthContext from "./../../../contexts/EthContext/EthContext";
+import { collection, query, where } from "firebase/firestore";
 
 function Form() {
   const {
@@ -17,9 +18,24 @@ function Form() {
   const { state, dispatch } = useContext(EthContext);
   console.log("state in Form1 is ", state);
   const handleFormSubmit = async (data) => {
+    // TODO SEARCH THE DATA FIRST
+    // const citiesRef = collection(db, "cities");
+    // const q = query(citiesRef, where("state", "==", "CA"));
+
     console.log("data - ", data);
     let res = null;
-    if (data.patientType === "donor") {
+    setDoc(doc(db, "Users", state.uid), {
+      email: state.email,
+      type: data.patientType,
+    })
+      .then((result) => {
+        console.log("result of users db ", result);
+      })
+      .catch((error) => {
+        console.log("result users error is ", error);
+      });
+
+    if (data.patientType === "Donor") {
       setDoc(doc(db, "Donor", state.uid), {
         ...data,
         ethID: state.accounts[0],
@@ -88,7 +104,7 @@ function Form() {
             <input
               type="radio"
               placeholder="Donor"
-              value="donor"
+              value="Donor"
               id="patientType"
               {...register("patientType", { required: true })}
             />
@@ -98,7 +114,7 @@ function Form() {
             <input
               type="radio"
               placeholder="Patient"
-              value="patient"
+              value="Patient"
               id="patientType"
               {...register("patientType", { required: true })}
             />
