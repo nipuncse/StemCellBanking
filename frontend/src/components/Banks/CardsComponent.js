@@ -14,6 +14,7 @@ const CardsComponent = () => {
             text="Preserving Hope by preserving Cells, Genes & Tissues"
             title="Stem Cell Bank"
             color="teal"
+            link="/stem-cell-bank/"
           />
         </div>
         <div className="flex flex-col gap-4 ">
@@ -21,11 +22,13 @@ const CardsComponent = () => {
             text="Preserving Hope by preserving Cells, Genes & Tissues"
             title="Health Check"
             color="yellow"
+            link="/stem-cell-bank/"
           />{" "}
           <Card
             text="Preserving Hope by preserving Cells, Genes & Tissues"
             title="Beauty"
             color="indigo"
+            link="/stem-cell-bank/"
           />
         </div>{" "}
         <div className="flex justify-center items-center">
@@ -33,6 +36,7 @@ const CardsComponent = () => {
             text="Preserving Hope by preserving Cells, Genes & Tissues"
             title="Stem Cell matching"
             color="green"
+            link="/stem-cell-bank/"
           />
         </div>
       </div>
