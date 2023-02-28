@@ -118,7 +118,7 @@ function Form() {
               id="patientType"
               {...register("patientType", { required: true })}
             />
-            <h3>Patient</h3>
+            <h3>Patient-s</h3>
           </label>
           {errors.patientType && <p>Please enter Patient-Type.</p>}
           <input className={classes.btn} type="submit" />
